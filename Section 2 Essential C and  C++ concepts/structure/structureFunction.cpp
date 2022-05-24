@@ -29,9 +29,11 @@ int main()
 {
 
     Rectangle r = {0, 0};
-
+    int l, b;
     printf("Enter length and breadht");
-    cin >> r.length >> r.breadth;
+    cin >> l >> b;
+
+    initialize(&r, l, b);
 
     int a = area(r);
 
