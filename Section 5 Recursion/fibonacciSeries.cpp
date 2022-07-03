@@ -14,8 +14,16 @@ int fib(int n)
     }
     return s;
 }
+
+int rFib(int n)
+{
+    if (n <= 1)
+        return n;
+    return rFib(n - 2) + rFib(n - 1);
+}
+
 int main()
 {
-    printf("%d \n", fib(5));
+    printf("%d \n", rFib(5));
     return 0;
 }
