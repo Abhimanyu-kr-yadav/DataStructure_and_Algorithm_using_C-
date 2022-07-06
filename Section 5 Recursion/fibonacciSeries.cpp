@@ -49,6 +49,6 @@ int main()
         F[i] = -1;
     }
 
-    printf("%d \n", mfib(7));
+    printf("%d \n", mfib(5));
     return 0;
 }
